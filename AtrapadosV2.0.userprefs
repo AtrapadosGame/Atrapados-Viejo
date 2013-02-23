@@ -1,0 +1,16 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Event manager scripts\Manager1.js">
+    <Files>
+      <File FileName="Assets\Scripts\Event manager scripts\Manager1.js" Line="303" Column="5" />
+      <File FileName="Assets\Scripts\Menu_script.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Interactores\Interactor_Click.js" Line="44" Column="130" />
+      <File FileName="Assets\Scripts\Player_Manager.js" Line="69" Column="58" />
+      <File FileName="Assets\Scripts\ScreenManager.js" Line="6" Column="41" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

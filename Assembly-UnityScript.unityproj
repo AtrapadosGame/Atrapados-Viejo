@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{9AACC5A6-54DB-52AA-6341-6A8D8B14966A}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-UnityScript</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_STANDALONE;ENABLE_MICROPHONE;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;ENABLE_AUDIO_FMOD;ENABLE_NETWORK;ENABLE_MONO;ENABLE_PHYSICS;ENABLE_TERRAIN;ENABLE_CACHING;ENABLE_SUBSTANCE;ENABLE_GENERICS;ENABLE_CLOTH;ENABLE_MOVIES;ENABLE_AUDIO;ENABLE_WWW;ENABLE_SHADOWS;ENABLE_DUCK_TYPING;UNITY_4_0_1;UNITY_4_0;UNITY_STANDALONE_WIN;UNITY_64;ENABLE_PROFILER;UNITY_EDITOR</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Scripts\CameraRotation.js" />
+     <Compile Include="Assets\Scripts\CursorControl\CursorControl.js" />
+     <Compile Include="Assets\Scripts\CursorControl\CursorControlLlave.js" />
+     <Compile Include="Assets\Scripts\Event manager scripts\IEvent_manager.js" />
+     <Compile Include="Assets\Scripts\Event manager scripts\Manager1.js" />
+     <Compile Include="Assets\Scripts\Event_manager.js" />
+     <Compile Include="Assets\Scripts\Game_Over.js" />
+     <Compile Include="Assets\Scripts\Habilidades_script.js" />
+     <Compile Include="Assets\Scripts\Interactores\Interactor_Click.js" />
+     <Compile Include="Assets\Scripts\Interactores\Interactor_Habilidad.js" />
+     <Compile Include="Assets\Scripts\Interactores\Interactor_Trigger.js" />
+     <Compile Include="Assets\Scripts\Menu_script.js" />
+     <Compile Include="Assets\Scripts\MoverClick.js" />
+     <Compile Include="Assets\Scripts\MoverInput.js" />
+     <Compile Include="Assets\Scripts\MoverInput2.js" />
+     <Compile Include="Assets\Scripts\OnDistance.js" />
+     <Compile Include="Assets\Scripts\Player.js" />
+     <Compile Include="Assets\Scripts\Player_Manager.js" />
+     <Compile Include="Assets\Scripts\ScreenManager.js" />
+     <Compile Include="Assets\Scripts\Timer.js" />
+     <Compile Include="Assets\Scripts\Unity scripts\Camera Scripts\MouseOrbit.js" />
+     <Compile Include="Assets\Scripts\Unity scripts\Camera Scripts\SmoothFollow.js" />
+     <Compile Include="Assets\Scripts\Unity scripts\Camera Scripts\SmoothLookAt.js" />
+     <Compile Include="Assets\Scripts\Unity scripts\General Scripts\DragRigidbody.js" />
+     <Compile Include="Assets\Scripts\aparecer texturas.js" />
+     <Compile Include="Assets\Scripts\countdown.js" />
+     <Compile Include="Assets\Scripts\jugar.js" />
+     <Compile Include="Assets\Scripts\siguiente.js" />
+     <Compile Include="Assets\Scripts\volver a jugar.js" />
+     <Compile Include="Assets\Scripts\volver.js" />
+     <Compile Include="Assets\Scripts\volver2.js" />
+     <Compile Include="Assets\interfaz\home.js" />
+     <Compile Include="Assets\load2.js" />
+     <Compile Include="Assets\loaddlevel.js" />
+     <None Include="Assets\_Freakow\RageSpline\Code\RageSplineDouble.shader" />
+     <None Include="Assets\_Freakow\RageSpline\Code\RageSplineTexturedDouble.shader" />
+     <None Include="Assets\_Freakow\RageSpline\Code\RageSplineTextured.shader" />
+     <None Include="Assets\SM2\Plugins\AnBSoft Common\Standard Shaders\Sprite Vertex Colored, Fast.shader" />
+     <None Include="Assets\SM2\Plugins\AnBSoft Common\Standard Shaders\Sprite Simple Texture .shader" />
+     <None Include="Assets\SM2\Plugins\AnBSoft Common\Standard Shaders\Sprite Cutout.shader" />
+     <None Include="Assets\_Freakow\RageSpline\Code\RageSplineTexturedAlphaShader.shader" />
+     <None Include="Assets\_Freakow\RageSpline\readme.txt" />
+     <None Include="Assets\_Freakow\RageSpline\Code\RageSpline.shader" />
+     <None Include="Assets\_Freakow\RageSpline\Code\RageSplineMultitextured.shader" />
+     <None Include="Assets\_Freakow\RageSpline\Code\RS3DTexturedAlphaShader.shader" />
+     <None Include="Assets\SM2\Plugins\AnBSoft Common\Standard Shaders\Sprite Vertex Colored.shader" />
+     <None Include="Assets\_Freakow\RageSpline\Code\RS3DBasicFill.shader" />
+     <None Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FarseerDebugViewUnity\FDView.shader" />
+     <None Include="Assets\_ThirdParty\RageFarseer\Tests\Shaders\Color.shader" />
+     <None Include="Assets\_Freakow\RageSpline\Code\RS3DAA.shader" />
+     <None Include="Assets\_Freakow\RageSpline\Code\RS3DTextured.shader" />
+     <None Include="Assets\_Freakow\RageSpline\Code\RageSplineTextureAlphaTP.shader" />
+     <None Include="Assets\_ThirdParty\RageFarseer\Tests\Shaders\Transparent Vertex Colored.shader" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
